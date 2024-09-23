@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - setuptools-scm
     - pip
   run:
-    - python >=3.6
-    - urllib3 >=1.7,<2
+    - python >=3.7
+    - urllib3 >=1.26,<3
 
 test:
   imports:
