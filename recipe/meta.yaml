@@ -1,13 +1,13 @@
 {% set name = "newrelic-telemetry-sdk" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3d96daf0b1789ac3c41d66fc32b7078d01c627ae85a8ff54641ca30800f664ce
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: ffaa77fc7d36c5c83b9c32b6e5a1425f0f85e23cf87af75e588f494479c83d96
 
 build:
   noarch: python
